@@ -1,0 +1,38 @@
+:root {	
+		--primary-text-color: #121417;
+		--secondary-text-color: rgba(18, 20, 23, 0.5);
+		
+    --main-background-color: #ffffff;
+		--header-background-color: #f3f3f2;
+		--image-background-color: #f3f3f2;		
+		--overlay-background-color: rgba(43, 43, 43, 0.5);
+
+		--favorite-icon-color:rgb(255, 255, 255, 0.8);
+		--favorite-icon-color-hover:#3470ff;
+		--favorite-icon-box-shadow-hover: 0 0 16px rgb(255, 255, 255, 0.8);
+		--favorite-icon-bgc-hover: rgba(11, 68, 205, 0.25);
+
+		
+		--button-text-color: #ffffff;
+		--button-background-color: #3470ff;
+    --button-background-color-hover: #0b44cd;		
+
+    --separator-text-color: rgba(18, 20, 23, 0.10);
+
+		--cubic-bezier: cubic-bezier(0.42, 0, 0.58, 1);
+		
+		--label-text-color: #8a8a89;
+		--input-background-color:#f7f7fb;
+		--input-right-border-color: rgba(138, 138, 137, 0.20);
+
+
+		--accent-color: #3470ff;
+		--accent-hover: #0b44cd;
+
+    --condition-text-color: #363535;
+    --condition-background-color: #f9f9f9;
+
+		--close-icon-bgc-hover: #f0f0f0;
+		--close-icon-box-shadow-hover: 0 0 20px #0b44cd;
+
+}
