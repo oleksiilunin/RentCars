@@ -28,6 +28,7 @@ export const ButtonStyled = styled.button`
       padding: 12px 50px;
     `}
 
+    
   border-radius: 12px;
   border: none;
 
@@ -47,4 +48,15 @@ export const ButtonStyled = styled.button`
   :focus {
     background-color: var(--button-background-color-hover);
   }
+  ${props =>
+    props.disabled &&
+    css`
+      background-color: var(--disabled-button-background-color);
+      cursor: not-allowed;
+
+      &:hover,
+      :focus {
+        background-color: var(--disabled-button-background-color);
+      }
+    `}
 `;
