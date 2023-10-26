@@ -7,6 +7,7 @@ import {
 import '../../css/variables.css';
 
 export const Form = styled(FormikForm)`
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -14,6 +15,7 @@ export const Form = styled(FormikForm)`
 `;
 
 export const Label = styled.label`
+  /* position: relative; */
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -81,6 +83,8 @@ export const MileageBox = styled.div`
 `;
 
 export const ErrorMessage = styled(FormikError)`
+  position: absolute;
+  bottom: -30px;
   max-width: 480px;
   color: #c00000;
 `;
