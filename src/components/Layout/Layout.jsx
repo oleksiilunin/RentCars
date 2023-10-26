@@ -4,35 +4,14 @@ import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import {
-  Header,
-  LayoutContainer,
-  Main,
-  NavItem,
-  NavList,
-  Navigation,
-  StyledNavLink,
-} from './Layout.styled';
+import { LayoutContainer, Main } from './Layout.styled';
+import Header from 'components/Header';
 
 const Layout = () => {
   return (
     <>
       <LayoutContainer>
-        <Header>
-          <Navigation>
-            <NavList>
-              <NavItem>
-                <StyledNavLink to="/">Home</StyledNavLink>
-              </NavItem>
-              <NavItem>
-                <StyledNavLink to="/catalog">Catalog</StyledNavLink>
-              </NavItem>
-              <NavItem>
-                <StyledNavLink to="/favorites">Favorites</StyledNavLink>
-              </NavItem>
-            </NavList>
-          </Navigation>
-        </Header>
+        <Header />
         <Main>
           <Suspense fallback={<Loader />}>
             <Outlet />
