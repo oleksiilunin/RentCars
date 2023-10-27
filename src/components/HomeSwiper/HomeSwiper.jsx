@@ -18,13 +18,13 @@ import Button from 'components/Button/Button';
 export default function HomeSwiper() {
 	return (
 		<div>
-			{/* <div>
+			<div>
 				{swiperCardsInfo.map((card, idx)=>(
 					<div key={idx}>
 					<img src={card.img} alt="" />
 					</div>
 				))}
-			</div> */}
+			</div>
 			<Swiper 
 			modules={[Navigation]}
       spaceBetween={50}
@@ -35,7 +35,7 @@ export default function HomeSwiper() {
 				{swiperCardsInfo.map(({img, subtitle, description}) =>(
 				<SwiperSlide key={subtitle}>				
 					<SliderContainer>
-					<ImageStyled src={`/images/${img}`} alt={subtitle} />
+					<ImageStyled src={img} alt={subtitle} />
 					<InfoBox>
 						<CardTitle>Find the perfect car <HighlightSpan>{subtitle}</HighlightSpan></CardTitle>
 						<TextStyled>{description}</TextStyled>
