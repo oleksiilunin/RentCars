@@ -36,6 +36,16 @@ export const ButtonStyled = styled.button`
       padding: 14px 50px;
       `}
 
+  ${props =>
+    props.$page404Button &&
+    css`
+      padding: 14px 50px;
+      font-size: 50px;
+      font-weight: 600;
+      line-height: 1.42857; /* 142.857% */
+      box-shadow:  rgb(255, 255, 255) 0px 0px 55px;
+      `}
+
     
   border-radius: 12px;
   border: none;
