@@ -26,7 +26,15 @@ export const ButtonStyled = styled.button`
       width: 168px;
       height: 44px;
       padding: 12px 50px;
-    `}
+      `}
+
+  ${props =>
+    props.$swiperCardButton &&
+    css`
+      /* width: 168px; */
+      /* height: 44px; */
+      padding: 14px 50px;
+      `}
 
     
   border-radius: 12px;

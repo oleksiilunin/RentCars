@@ -4,8 +4,12 @@ import { FaCar } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 export const HomeContainer = styled.div`
-  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  gap:50px;
 
+
+  border-radius: 14px;
   /* width: 100vw; */
   width: 1440px;
 `;

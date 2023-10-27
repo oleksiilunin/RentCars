@@ -8,23 +8,46 @@ import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 
 // import './styles.css';
+import swiperCardsInfo from "../../assets/data/swiperCard.json"
+import { CardTitle, HighlightSpan, ImageStyled, InfoBox, LinkStyled, SliderContainer, TextStyled } from './HomeSwiper.styled';
+import { scrollToTop } from 'assets/helpers/scrollToTop';
+import Button from 'components/Button/Button';
+
 
 
 export default function HomeSwiper() {
 	return (
 		<div>
+			<div>
+				{swiperCardsInfo.map((card, idx)=>(
+					<div key={idx}>
+					<img src={card.img} alt="" />
+					</div>
+				))}
+			</div>
 			<Swiper 
 			modules={[Navigation]}
       spaceBetween={50}
       slidesPerView={1}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}			
-			navigation={true}>
-				<SwiperSlide>Slide 1</SwiperSlide>
-      <SwiperSlide>Slide 2</SwiperSlide>
-      <SwiperSlide>Slide 3</SwiperSlide>
-      <SwiperSlide>Slide 4</SwiperSlide>
+			speed={300}
+			navigation
+			loop>
+				{swiperCardsInfo.map(({img, subtitle, description}) =>(
+				<SwiperSlide key={subtitle}>				
+					<SliderContainer>
+					<ImageStyled src={`/images/${img.toString()}`} alt={subtitle} />
+					<InfoBox>
+						<CardTitle>Find the perfect car <HighlightSpan>{subtitle}</HighlightSpan></CardTitle>
+						<TextStyled>{description}</TextStyled>
+						<LinkStyled to="/catalog" onClick={scrollToTop}>
+        			<Button $swiperCardButton type="button" label="Browse car"/>
+      			</LinkStyled>
+					</InfoBox>
+					</SliderContainer>
+				</SwiperSlide>)
+			)}
 			</Swiper>
+			<img src="/images/img.png" alt="" />
 		</div>
 	)
 }

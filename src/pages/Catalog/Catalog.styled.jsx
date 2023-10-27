@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 
-export const CatalogWrapper = styled.section`
-  display: flex;
-  flex-direction: column;
-  /* align-items: center; */
-  /* justify-content: center; */
-  width: 1440px;
+// export const CatalogWrapper = styled.section`
+//   display: flex;
+//   flex-direction: column;
+//   /* align-items: center; */
+//   /* justify-content: center; */
+//   width: 1440px;
 
-  gap: 50px;
-`;
+//   gap: 50px;
+// `;
 
 export const Form = styled.form`
   display: flex;
