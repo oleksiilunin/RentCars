@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <HeaderContainer>
       <LinkStyled to="/" onClick={scrollToTop}>
-        <img src={Logo} alt="logo" width="80" height="800" loading="lazy" />
+        <img src={Logo} alt="logo" width="80" height="80" loading="lazy" />
       </LinkStyled>
       <Navigation>
         <NavList>

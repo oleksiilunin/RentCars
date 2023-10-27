@@ -14,7 +14,7 @@ export default function NoResultCard() {
     <CardWrapper>
       <CardImage src={emptyFavorites} alt="Empty Favorites" width="480" />
       <TextBox>
-        <CardMainText>No saved cars</CardMainText>
+        <CardMainText>No Favorite Yet</CardMainText>
         <CardSecondaryText>
           Click the <FiHeart size="32" /> button on any adverts to add a
           favorite.

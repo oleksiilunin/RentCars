@@ -4,12 +4,13 @@ import styled from 'styled-components';
 export const HeaderContainer = styled.header`
   position: fixed;
   z-index: 1000;
-
+  /* left: 0; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 8px 24px;
   width: 1440px;
+  /* width: 100vw; */
   height: 100px;
   border-radius: 14px;
 
@@ -48,7 +49,7 @@ export const StyledNavLink = styled(NavLink)`
   color: var(--button-text-color);
   background-color: var(--button-background-color);
 
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 600;
   line-height: 1.42857;
 

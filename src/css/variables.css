@@ -1,6 +1,9 @@
 :root {	
 		--primary-text-color: #121417;
 		--secondary-text-color: rgba(18, 20, 23, 0.5);
+
+		--home-title-text-color: #ffffff;
+		--home-title-icon-fill: #ffffff;
 		
     --main-background-color: #ffffff;
 		--header-background-color: #f3f3f2;
@@ -16,6 +19,7 @@
 		--button-text-color: #ffffff;
 		--button-background-color: #3470ff;
     --button-background-color-hover: #0b44cd;		
+    --disabled-button-background-color: rgb(52, 112, 255, 0.3);		
 
     --separator-text-color: rgba(18, 20, 23, 0.10);
 

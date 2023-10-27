@@ -11,8 +11,7 @@ import {
 } from './SearchForm.styled';
 import * as yup from 'yup';
 import Button from 'components/Button/Button';
-import { useDispatch, useSelector } from 'react-redux';
-import { selectFilter } from 'redux/filter/filterSelectors';
+import { useDispatch } from 'react-redux';
 import { clearFilter, setFilter } from 'redux/filter/filterSlice';
 
 const schema = yup.object().shape({
