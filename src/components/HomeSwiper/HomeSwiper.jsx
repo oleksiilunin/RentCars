@@ -13,29 +13,30 @@ import { CardTitle, HighlightSpan, ImageStyled, InfoBox, LinkStyled, SliderConta
 import { scrollToTop } from 'assets/helpers/scrollToTop';
 import Button from 'components/Button/Button';
 
-
+import img01 from '../../assets/images/slider/01-great-outdoor.png'
+import img02 from '../../assets/images/slider/02-unwind.png'
+import img03 from '../../assets/images/slider/03-upgrade-vacation.png'
+import img04 from '../../assets/images/slider/04-scenic-curves.png'
+import img05 from '../../assets/images/slider/05-try-before-buy.png'
+import img06 from '../../assets/images/slider/06-errand-day.png'
 
 export default function HomeSwiper() {
+
+	const imgArr = [img01,img02,img03,img04,img05,img06];
+
 	return (
 		<div>
-			<div>
-				{swiperCardsInfo.map((card, idx)=>(
-					<div key={idx}>
-					<img src={card.img} alt="" />
-					</div>
-				))}
-			</div>
 			<Swiper 
 			modules={[Navigation]}
       spaceBetween={50}
       slidesPerView={1}
-			speed={300}
+			speed={700}
 			navigation
 			loop>
-				{swiperCardsInfo.map(({img, subtitle, description}) =>(
+				{swiperCardsInfo.map(({img, subtitle, description}, idx) =>(
 				<SwiperSlide key={subtitle}>				
 					<SliderContainer>
-					<ImageStyled src={img} alt={subtitle} />
+					<ImageStyled src={imgArr[idx]} alt={subtitle} />
 					<InfoBox>
 						<CardTitle>Find the perfect car <HighlightSpan>{subtitle}</HighlightSpan></CardTitle>
 						<TextStyled>{description}</TextStyled>
@@ -47,7 +48,6 @@ export default function HomeSwiper() {
 				</SwiperSlide>)
 			)}
 			</Swiper>
-			<img src="/images/img.png" alt="" />
 		</div>
 	)
 }

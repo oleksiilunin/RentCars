@@ -5,13 +5,16 @@ export const SliderContainer = styled.div`
 	display: flex;
 	align-items:flex-start;
 	justify-content:center;
-	gap: 50px;
+	gap: 80px;
 	/* padding:230px; */
 `;
 
 export const ImageStyled = styled.img`
 	width: 500px;
 	height: 265px;
+
+	object-fit: contain; 
+	 overflow: hidden;
 
 	`;
 
@@ -35,7 +38,7 @@ export const ImageStyled = styled.img`
 	export const TextStyled = styled.p`
 		color: var(--secondary-text-color);
 
-		font-size: 16px;
+		font-size: 18px;
 		font-weight: 400;
 		line-height: 1.5; /* 150% */
 	`;
