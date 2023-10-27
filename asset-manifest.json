@@ -1,13 +1,43 @@
 {
   "files": {
-    "main.css": "/RentCars/static/css/main.7acaea2f.css",
-    "main.js": "/RentCars/static/js/main.79e1b4a2.js",
+    "main.css": "/RentCars/static/css/main.2e2ef96e.css",
+    "main.js": "/RentCars/static/js/main.e96f4368.js",
+    "static/css/583.2e269aa6.chunk.css": "/RentCars/static/css/583.2e269aa6.chunk.css",
+    "static/js/583.294a44c0.chunk.js": "/RentCars/static/js/583.294a44c0.chunk.js",
+    "static/js/586.4d336946.chunk.js": "/RentCars/static/js/586.4d336946.chunk.js",
+    "static/js/947.13864d0c.chunk.js": "/RentCars/static/js/947.13864d0c.chunk.js",
+    "static/js/853.c8b99e01.chunk.js": "/RentCars/static/js/853.c8b99e01.chunk.js",
+    "static/js/568.25781896.chunk.js": "/RentCars/static/js/568.25781896.chunk.js",
+    "static/js/697.7199537f.chunk.js": "/RentCars/static/js/697.7199537f.chunk.js",
+    "static/js/124.7fd58800.chunk.js": "/RentCars/static/js/124.7fd58800.chunk.js",
+    "static/media/blue-tire.jpg": "/RentCars/static/media/blue-tire.91981144123bd83376b3.jpg",
+    "static/media/car-bgc-grey.jpg": "/RentCars/static/media/car-bgc-grey.d41c1328354d7b0ae946.jpg",
+    "static/media/rent-car-removebg.png": "/RentCars/static/media/rent-car-removebg.c4d511fa9a9579634f84.png",
+    "static/media/emptyMySaved.svg": "/RentCars/static/media/emptyMySaved.0c51707937e9de96339d8c30d6a61d90.svg",
+    "static/media/montserrat-v26-latin-600.ttf": "/RentCars/static/media/montserrat-v26-latin-600.7c8265b313e9c5317b13.ttf",
+    "static/media/montserrat-v26-latin-regular.ttf": "/RentCars/static/media/montserrat-v26-latin-regular.52d6a57b5532b3b79f8e.ttf",
+    "static/media/manrope-v15-latin-500.ttf": "/RentCars/static/media/manrope-v15-latin-500.58fccc05dbdac5169469.ttf",
+    "static/media/manrope-v15-latin-600.ttf": "/RentCars/static/media/manrope-v15-latin-600.cdbefcd69d8c4412063c.ttf",
+    "static/media/manrope-v15-latin-regular.ttf": "/RentCars/static/media/manrope-v15-latin-regular.34d9f9f2f7c620c75ffc.ttf",
+    "static/media/montserrat-v26-latin-600.woff2": "/RentCars/static/media/montserrat-v26-latin-600.4201798fe1a74331c392.woff2",
+    "static/media/montserrat-v26-latin-regular.woff2": "/RentCars/static/media/montserrat-v26-latin-regular.9ef09180105730e3cb92.woff2",
+    "static/media/manrope-v15-latin-600.woff2": "/RentCars/static/media/manrope-v15-latin-600.ec61c26ae9843c74c66e.woff2",
+    "static/media/manrope-v15-latin-regular.woff2": "/RentCars/static/media/manrope-v15-latin-regular.5b06bf94f857e4244b64.woff2",
+    "static/media/manrope-v15-latin-500.woff2": "/RentCars/static/media/manrope-v15-latin-500.b6bf3db6256270076d37.woff2",
     "index.html": "/RentCars/index.html",
-    "main.7acaea2f.css.map": "/RentCars/static/css/main.7acaea2f.css.map",
-    "main.79e1b4a2.js.map": "/RentCars/static/js/main.79e1b4a2.js.map"
+    "main.2e2ef96e.css.map": "/RentCars/static/css/main.2e2ef96e.css.map",
+    "main.e96f4368.js.map": "/RentCars/static/js/main.e96f4368.js.map",
+    "583.2e269aa6.chunk.css.map": "/RentCars/static/css/583.2e269aa6.chunk.css.map",
+    "583.294a44c0.chunk.js.map": "/RentCars/static/js/583.294a44c0.chunk.js.map",
+    "586.4d336946.chunk.js.map": "/RentCars/static/js/586.4d336946.chunk.js.map",
+    "947.13864d0c.chunk.js.map": "/RentCars/static/js/947.13864d0c.chunk.js.map",
+    "853.c8b99e01.chunk.js.map": "/RentCars/static/js/853.c8b99e01.chunk.js.map",
+    "568.25781896.chunk.js.map": "/RentCars/static/js/568.25781896.chunk.js.map",
+    "697.7199537f.chunk.js.map": "/RentCars/static/js/697.7199537f.chunk.js.map",
+    "124.7fd58800.chunk.js.map": "/RentCars/static/js/124.7fd58800.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.79e1b4a2.js"
+    "static/css/main.2e2ef96e.css",
+    "static/js/main.e96f4368.js"
   ]
 }
