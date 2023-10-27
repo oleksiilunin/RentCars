@@ -1,31 +1,31 @@
 [
 	{
-	"img": "images/blue-tire.jpg",
+	"img": "blue-tire.jpg",
 	"subtitle": "to take on the great outdoors",
 	"description": "Go prepared in a rugged 4x4 to take on winter roads with ease, or a camper van to take you to the trees."
 },
 	{
-	"img": "images/02-unwind.png",
+	"img": "/02-unwind.png",
 	"subtitle": "to unwind for the weekend",
 	"description": "From daily drivers to spirited sports cars, ditch the grind with convenient nearby cars."
 },
 	{
-	"img": "images/03-upgrade-vacation.png",
+	"img": "03-upgrade-vacation.png",
 	"subtitle": "to upgrade your holiday plans",
 	"description": "Skip the rental car counter and find the perfect car to complement your holiday vibe."
 },
 	{
-	"img": "images/04-scenic-curves.png",
+	"img": "04-scenic-curves.png",
 	"subtitle": "for scenic corners & curves",
 	"description": "Get your fill of high-performance thrills, with the richest selection of luxury and exotic vehicles anywhere."
 },
 	{
-	"img": "images/05-try-before-buy.png",
+	"img": "05-try-before-buy.png",
 	"subtitle": "to try before you buy",
 	"description": "Make sure your future wheels work well with your lifestyle by taking your time in the driver’s seat."
 },
 	{
-	"img": "images/06-errand-day.png",
+	"img": "06-errand-day.png",
 	"subtitle": "to make errand day easier",
 	"description": "Book a roomy car or SUV to ease your errand day stress, or to motivate your moving day."
 }
