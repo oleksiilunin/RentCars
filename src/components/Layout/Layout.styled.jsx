@@ -14,6 +14,6 @@ export const LayoutContainer = styled.div`
 `;
 
 export const Main = styled.main`
-  padding: 100px 129px 150px 129px;
+  padding: 100px 128px;
   
 `;

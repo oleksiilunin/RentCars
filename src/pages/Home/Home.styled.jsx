@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 export const HomeContainer = styled.div`
   display: flex;
   flex-direction: column;
-  gap:50px;
+  gap:100px;
 
 
   border-radius: 14px;
@@ -50,8 +50,6 @@ export const HomeHero = styled.div`
 `;
 
 export const HomeTitle = styled.h1`
-  /* display: flex;
-align-items:flex-end; */
   color: var(--home-title-text-color);  
 
   font-size: 148px;
