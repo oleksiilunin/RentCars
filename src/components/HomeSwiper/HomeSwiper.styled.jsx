@@ -9,15 +9,6 @@ export const SliderContainer = styled.div`
 	/* padding:230px; */
 `;
 
-export const ImageStyled = styled.img`
-	width: 500px;
-	height: 265px;
-
-	object-fit: contain; 
-	 overflow: hidden;
-
-	`;
-
 	export const InfoBox = styled.div`
 		display: flex;
 		flex-direction:column;
